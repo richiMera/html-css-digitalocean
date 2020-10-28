@@ -1,3 +1,10 @@
+h1 {
+  font-size: 60px;
+}
+
+p {
+  font-size: 18px;
+}
 
 #header_top {
   position: fixed;
@@ -41,4 +48,37 @@
 .glyphicon.glyphicon-align-justify {
   font-size: 20px;
   vertical-align: middle;
+}
+
+#header_bottom {
+  width: 100%;
+  height: 500px;
+  background-color: #0161FF;
+  margin-top: 60px;
+  color: white;
+}
+
+#registration_head_box {
+  width: 100%;
+  height: 350px;
+  background-color: white;
+  border-radius: 8px;
+}
+#registration_head_box h3 {
+  color: hsl(221,93%,16%);
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+#registration_head_box h3 span {
+  color: #0161FF;s
+}
+
+#form_box {
+  width: 90%;
+  margin: auto;
+}
+.my_block_btn {
+  height: 28px;
+  text-align: center;
+  font-size: 11px;
 }
