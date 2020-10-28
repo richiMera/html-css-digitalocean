@@ -1,0 +1,44 @@
+
+#header_top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  z-index: 10;
+}
+#header_top img {
+  width: 150px;
+  vertical-align: middle;
+}
+
+.my_list {
+  margin-bottom: 0px;
+}
+.my_list li {
+  font-size: 16px;
+  padding-left: 10px;
+  vertical-align: middle;
+}
+.my_list a {
+  color: hsl(221,93%,16%);
+}
+.my_list a:hover {
+  text-decoration: none;
+  color: #0062FF;
+}
+
+.wht_bl_btn {
+  border: 1px solid #0062FF;
+  color: #0062FF !important;
+}
+.wht_bl_btn:hover {
+  background-color: #0062FF;
+  color: white !important;
+}
+
+.glyphicon.glyphicon-align-justify {
+  font-size: 20px;
+  vertical-align: middle;
+}
