@@ -52,10 +52,14 @@ p {
 
 #header_bottom {
   width: 100%;
-  height: 500px;
+  /* height: 500px; */
   background-color: #0161FF;
   margin-top: 60px;
   color: white;
+  padding-bottom: 50px;
+}
+#title_head_btt_box {
+  margin-top: 50px;
 }
 
 #registration_head_box {
@@ -63,6 +67,7 @@ p {
   height: 350px;
   background-color: white;
   border-radius: 8px;
+  margin-top: 40px;
 }
 #registration_head_box h3 {
   color: hsl(221,93%,16%);
