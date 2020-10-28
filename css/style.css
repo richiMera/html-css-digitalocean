@@ -82,3 +82,10 @@ p {
   text-align: center;
   font-size: 11px;
 }
+.terms_box {
+  margin-top: 10px;
+}
+.terms_box p {
+  color: black !important;
+  font-size: 12px;
+}
