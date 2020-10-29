@@ -2,8 +2,18 @@ h1 {
   font-size: 60px;
 }
 
+h2 {
+  color: #031C4E;
+  font-size: 36px;
+}
+
+h3 {
+  color:  #031C4E;
+}
+
 p {
   font-size: 18px;
+  color: #5C6989;
 }
 
 #header_top {
@@ -59,6 +69,9 @@ p {
   color: white;
   padding-bottom: 60px;
 }
+#header_bottom p {
+  color: white;
+}
 #title_head_btt_box {
   margin-top: 50px;
 }
@@ -77,7 +90,7 @@ p {
   padding-bottom: 10px;
 }
 #registration_head_box h3 span {
-  color: #0161FF;s
+  color: #0161FF;
 }
 
 #form_box {
@@ -121,27 +134,36 @@ p {
 
 #deploy_scale {
   padding-top: 60px;
-}
-#deploy_scale h1,
-#deploy_scale h3 {
-  color: #031B4E;
-}
-#deploy_scale p {
-  color: #9CA3B6;
+  padding-bottom: 50px;
 }
 
-.wrapper_90 {
-  width: 90%;
-  height: 300px;
+/* #deploy_scale p {
+  color: #9CA3B6;
+} */
+.container > p {
+  font-size: 20px;
+}
+
+
+.wrapper_80 {
+  width: 80%;
   margin: auto;
   padding-top: 30px;
 }
 
 #normal_list {
   list-style: none;
+  padding-top: 30px;
+  padding-left: 0;
 }
 #normal_list li {
   padding-bottom: 20px;
+  margin-left: 0;
+  padding-left: 0;
+  font-size: 20px;
+}
+#normal_list a {
+  color: #5C6989;
 }
 
 .deploy_scale_height_box {
@@ -155,6 +177,24 @@ p {
 
 }
 
+#designed_for {
+  padding-top: 60px;
+  background-color: #F3F5F9;
+}
+#designed_image_box {
+  width: 50%;
+  margin: auto;
+  padding-top: 60px;
+}
+#designed_for p {
+  padding-top: 30px;
+}
+#designed_image_box img {
+  width: 100%;
+}
+#designed_image_box p {
+  color:  #031C4E;
+}
 
 @media screen and (max-width: 767px) {
 
