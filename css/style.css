@@ -181,6 +181,7 @@ p {
 #designed_for {
   padding-top: 60px;
   background-color: #F3F5F9;
+  padding-bottom: 80px;
 }
 #designed_image_box {
   position: relative;
@@ -204,13 +205,13 @@ p {
 #designed_image_box a:last-child {
   float: right;
 }
-#angle_icon_absolute_left {
+.angle_icon_absolute_left {
   position: absolute;
   top: 50%;
   left: 0%;
   transform: translateY(-50%);
 }
-#angle_icon_absolute_right {
+.angle_icon_absolute_right {
   position: absolute;
   top: 50%;
   right: 0%;
@@ -220,10 +221,22 @@ p {
   font-size: 50px;
 }
 
+.select_carousel_btn {
+  border-radius: 100%;
+  width: 10px;
+  height: 10px;
+  border: 2px solid #0069FF;
+  padding: 4px;
+  background-color: transparent;
+}
+.carousel_btn_box button:hover {
+  background-color: #0069FF;
+}
+
 
 #the_features {
   padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 90px;
 }
 #the_features h2 {
   padding-bottom: 30px;
@@ -273,10 +286,15 @@ p {
 #development {
   background-color: #F3F5F9;
   padding-top: 60px;
-  padding-bottom: 50px;
+  padding-bottom: 80px;
+}
+#development_relative_box {
+  position: relative;
+  width: 60%;
+  margin: auto
 }
 #development_white_box {
-  width: 50%;
+  width: 80%;
   margin: auto;
   background-color: white;
   padding-top: 50px;
@@ -296,6 +314,9 @@ p {
   color: #076FFF;
   font-size: 16px;
   font-weight: 700;
+}
+#development_relative_box .carousel_btn_box {
+  padding-top: 30px;
 }
 
 #footer_top {
@@ -329,7 +350,15 @@ p {
     text-align: right;
   }
 
+  .deploy_scale_height_box {
+    height: auto;
+  }
+
   #the_features img {
     padding-top: 20px;
+  }
+
+  #development_white_box img {
+    width: 100%;
   }
 }
