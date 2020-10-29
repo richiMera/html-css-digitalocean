@@ -183,7 +183,8 @@ p {
   background-color: #F3F5F9;
 }
 #designed_image_box {
-  width: 50%;
+  position: relative;
+  width: 60%;
   margin: auto;
   padding-top: 60px;
 }
@@ -191,11 +192,34 @@ p {
   padding-top: 30px;
 }
 #designed_image_box img {
-  width: 100%;
+  width: 80%;
 }
 #designed_image_box p {
   color:  #031C4E;
 }
+#designed_image_box a {
+  display: inline-block;
+  float: left;
+}
+#designed_image_box a:last-child {
+  float: right;
+}
+#angle_icon_absolute_left {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translateY(-50%);
+}
+#angle_icon_absolute_right {
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  transform: translateY(-50%);
+}
+.carousel_icon {
+  font-size: 50px;
+}
+
 
 #the_features {
   padding-top: 60px;
