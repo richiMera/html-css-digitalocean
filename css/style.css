@@ -5,6 +5,7 @@ h1 {
 h2 {
   color: #031C4E;
   font-size: 36px;
+  font-weight: 700;
 }
 
 h3 {
@@ -270,6 +271,22 @@ p {
 .development_margin a {
   color: #076FFF;
   font-size: 16px;
+  font-weight: 700;
+}
+
+#footer_top {
+  background-color: #0027A1;
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+#footer_top h2 {
+  color: white;
+}
+#footer_top_btn {
+  margin-top: 30px;
+}
+#footer_top_btn a {
+  color: #076FFF;
   font-weight: 700;
 }
 
