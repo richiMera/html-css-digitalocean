@@ -225,9 +225,22 @@ p {
   color: #0062FF;
   font-size: 12px;
 }
+#service span {
+  padding-bottom: 20px;
+}
+
+.border_bottom {
+  border-bottom: 1px solid white;
+}
+
+.service_middle_space {
+  width: 48%;
+  float: right;
+}
 
 .container [class*="col-"] .row [class*="col-"] {
-  border-bottom: 1px solid white;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 @media screen and (max-width: 767px) {
