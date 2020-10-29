@@ -210,6 +210,26 @@ p {
   font-size: 16px;
   color: #0062FF;
 }
+
+#service {
+  padding-top: 60px;
+  padding-bottom: 50px;
+  background-color: #002EAA;
+  color: white;
+}
+#service h2 {
+  text-align: center;
+  color: white;
+}
+#service a {
+  color: #0062FF;
+  font-size: 12px;
+}
+
+.container [class*="col-"] .row [class*="col-"] {
+  border-bottom: 1px solid white;
+}
+
 @media screen and (max-width: 767px) {
 
   .customer_box {
@@ -220,5 +240,9 @@ p {
   .customer_box img {
     float: left;
     text-align: right;
+  }
+
+  #the_features img {
+    padding-top: 20px;
   }
 }
