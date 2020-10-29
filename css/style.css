@@ -335,7 +335,44 @@ p {
   font-weight: 700;
 }
 
-
+#footer_bottom {
+  background-color: #031C4E;
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+#footer_bottom h4 {
+  color: white;
+}
+#footer_bottom a {
+  color: #A5ACBC;
+}
+#footer_bottom a:hover {
+  color: white;
+  text-decoration: none;
+}
+#footer_bottom li {
+  padding-bottom: 10px;
+}
+#footer_bottom p {
+  font-size: 16px;
+  padding-top: 10px;
+  color: #79849D;
+}
+#footer_bottom span {
+  font-size: 15px;
+  color: #586685;
+}
+#footer_bottom i {
+  font-size: 25px;
+  color: #7A859D;
+}
+#footer_bottom i:hover {
+  color: white;
+}
+.footer_normal_list {
+  padding-left: 0px;
+  list-style: none;
+}
 
 
 @media screen and (max-width: 767px) {
