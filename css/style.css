@@ -56,7 +56,7 @@ p {
   background-color: #0161FF;
   margin-top: 60px;
   color: white;
-  padding-bottom: 50px;
+  padding-bottom: 60px;
 }
 #title_head_btt_box {
   margin-top: 50px;
@@ -98,6 +98,14 @@ p {
 
 #customer_main_box {
   background-color: #F3F5F9;
+  padding-top: 60px;
+}
+#customer_main_box p {
+  color: #7F8AA2;
+}
+#customer_main_box a {
+  font-size: 15px;
+  color: #006AFF;
 }
 .customer_box {
   display: inline-block;
@@ -109,6 +117,25 @@ p {
   width: 100%;
   height: 100%;
 }
+
+#deploy_scale {
+  padding-top: 60px;
+}
+
+.wrapper_90 {
+  width: 90%;
+  height: 300px;
+  background-color: gray;
+  margin: auto;
+}
+
+#normal_list {
+  list-style: none;
+}
+#normal_list li {
+  padding-bottom: 20px;
+}
+
 
 @media screen and (max-width: 767px) {
 
