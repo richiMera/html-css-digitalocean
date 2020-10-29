@@ -160,11 +160,19 @@ p {
 #normal_list li {
   padding-bottom: 20px;
   margin-left: 0;
-  padding-left: 0;
+  padding-left: 10px;;
   font-size: 20px;
+  border-left: 2px solid #E5E8ED;
+}
+#normal_list li:hover {
+  border-left: 2px solid #0061FF;
 }
 #normal_list a {
   color: #5C6989;
+}
+#normal_list a:hover {
+  color: #031C4E;
+  text-decoration: none;
 }
 
 .deploy_scale_height_box {
