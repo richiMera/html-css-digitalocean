@@ -196,6 +196,20 @@ p {
   color:  #031C4E;
 }
 
+#the_features {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+#the_features h2 {
+  padding-bottom: 30px;
+}
+#the_features p {
+  font-size: 16px;
+}
+#the_features a {
+  font-size: 16px;
+  color: #0062FF;
+}
 @media screen and (max-width: 767px) {
 
   .customer_box {
