@@ -96,12 +96,12 @@ p {
 .btn_relative {
   position: relative;
 }
-#form_box i {
+.btn_relative img {
   position: absolute;
   top: 50%;
   left: 5%;
   transform: translate(-5%, -50%);
-  font-size: 20px;
+  width: 20px;
 }
 
 #form_box {
@@ -443,7 +443,7 @@ p {
 
   .customer_box {
     width: 45%;
-    padding: 0 15px;
+    padding-left: 25px;
   }
 
   .customer_box img {
