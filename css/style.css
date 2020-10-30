@@ -1,20 +1,35 @@
 h1 {
   font-size: 60px;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
 }
 
 h2 {
   color: #031C4E;
   font-size: 36px;
   font-weight: 700;
+  font-family: 'Roboto', sans-serif;
 }
 
 h3 {
   color:  #031C4E;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+h4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
 }
 
 p {
   font-size: 18px;
   color: #5C6989;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
 }
 
 #header_top {
@@ -64,7 +79,6 @@ p {
 
 #header_bottom {
   width: 100%;
-  /* height: 500px; */
   background-color: #0161FF;
   margin-top: 60px;
   color: white;
@@ -79,7 +93,6 @@ p {
 
 #registration_head_box {
   width: 100%;
-  /* height: 350px; */
   background-color: white;
   border-radius: 8px;
   margin-top: 40px;
@@ -102,6 +115,9 @@ p {
   left: 5%;
   transform: translate(-5%, -50%);
   width: 20px;
+}
+#term_service {
+  color: #2D86FF;
 }
 
 #form_box {
@@ -285,6 +301,10 @@ p {
   color: #00D3D1;
   font-size: 12px;
   font-weight: 700;
+}
+#service a:hover {
+  color: #0F32FF;
+  text-decoration: none;
 }
 #service span {
   padding-bottom: 20px;
