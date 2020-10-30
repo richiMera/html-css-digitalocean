@@ -93,6 +93,16 @@ p {
 #registration_head_box h3 span {
   color: #0161FF;
 }
+.btn_relative {
+  position: relative;
+}
+#form_box i {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translate(-5%, -50%);
+  font-size: 20px;
+}
 
 #form_box {
   width: 90%;
