@@ -85,7 +85,8 @@ a {
   padding-bottom: 60px;
 }
 #header_bottom p {
-  color: white;
+  color: #B8CAFF;
+  font-size: 23px
 }
 #title_head_btt_box {
   margin-top: 50px;
@@ -119,7 +120,6 @@ a {
 #term_service {
   color: #2D86FF;
 }
-
 #form_box {
   width: 90%;
   margin: auto;
@@ -129,10 +129,10 @@ a {
   text-align: center;
   font-size: 11px;
 }
-.terms_box {
+#terms_box {
   margin-top: 10px;
 }
-.terms_box p {
+#terms_box p {
   color: black !important;
   font-size: 12px;
 }
@@ -230,6 +230,7 @@ a {
 }
 #designed_image_box p {
   color:  #031C4E;
+  font-weight: 400;
 }
 #designed_image_box a {
   display: inline-block;
@@ -346,6 +347,9 @@ a {
   padding-bottom: 50px;
   margin-top: 100px;
 }
+#development img {
+  max-width: 100%;
+}
 #development_white_box p {
   margin: 0;
 }
@@ -419,47 +423,39 @@ a {
   list-style: none;
 }
 
-
-#shark_fixed_box  {
-}
-#Shark_help {
-  width: 20%;
-  background-color: white;
-  color: #031C4E;
-  border-radius: 5px;
-  padding: 3px;
+#fixed_footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 #shark_img {
   width: 70px;
-}
-#shark_img img {
-  width: 100%;
-  margin-left: 100px;
   border-radius: 5px;
+  margin-bottom: 20px;
 }
-#shark_img span {
-  position: absolute;
-  right: -150%;
-  bottom: 70%;
-  border: 4px solid white;
-  border-radius: 50%;
-  background-color: red;
-  color: white;
-  width: 30px;
-  height: 30px;
-  text-align: center;
+#shark_text {
+  width: 300px;
+  padding: 8px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: white;
+  color: #031C4E;
 }
-.fixed_inline_shark {
-  position: fixed;
-  bottom: 4%;
-  right: 9%;
-  display: inline-block;
+.padding_fixed_box {
+  padding-left: 40px;
 }
 
 
+@media screen and (max-width: 991px) {
 
+  h1 {
+    font-size: 40px;
+  }
 
-@media screen and (max-width: 767px) {
+  h2 {
+    font-size: 30px;
+  }
 
   .customer_box {
     width: 45%;
@@ -474,6 +470,15 @@ a {
   .deploy_scale_height_box {
     height: auto;
   }
+  #deploy_scale .wrapper_80 {
+    width: 100%;
+  }
+
+  #designed_image_box p {
+    font-size: 15px;
+    font-weight: 700;
+
+  }
 
   #the_features img {
     padding-top: 20px;
@@ -481,5 +486,32 @@ a {
 
   #development_white_box img {
     width: 100%;
+  }
+
+
+
+}
+
+@media screen and (max-width: 1200px) {
+
+  #designed_for .carousel_btn_box {
+    padding-top: 50px;
+  }
+
+  #col_padding_top {
+    padding-top: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+
+  .row .padding_fixed_box:first-child {
+    padding-right: 40px;
+  }
+  .padding_fixed_box {
+    padding-left: 20px;
+  }
+  .lg_float_right {
+    float: right;
   }
 }
