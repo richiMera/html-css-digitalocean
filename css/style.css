@@ -63,13 +63,13 @@ a {
   color: #0062FF;
 }
 
-.personal_btn {
+#personal_btn {
   border: 1px solid #0062FF;
-  color: #0062FF !important;
+  color: #0062FF;
 }
-.personal_btn:hover {
+#personal_btn:hover {
   background-color: #0062FF;
-  color: white !important;
+  color: white;
 }
 
 .glyphicon.glyphicon-align-justify {
@@ -133,7 +133,7 @@ a {
   margin-top: 10px;
 }
 #terms_box p {
-  color: black !important;
+  color: black;
   font-size: 12px;
 }
 
