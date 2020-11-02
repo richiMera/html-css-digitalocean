@@ -142,7 +142,8 @@ a {
   padding-top: 60px;
   padding-bottom: 50px;
 }
-#customer_main_box p {
+#customer_main_box h3 {
+  font-size: 18px;
   color: #7F8AA2;
 }
 #customer_main_box a {
